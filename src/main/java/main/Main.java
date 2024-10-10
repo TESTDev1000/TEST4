@@ -21,7 +21,7 @@ public class Main {
         sortedEntries.sort((a, b) -> b.getValue().compareTo(a.getValue()));
 
         sortedEntries.forEach(entry ->
-                System.out.printf("%-5s | %d%n", entry.getKey(), entry.getValue())
+                System.out.printf("%s | %d%n", entry.getKey(), entry.getValue())
         );
     }
 }
